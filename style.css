@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body, header, main, footer {
+    border: 3px #2596be solid;
+    min-height: 50px;
+    margin: 1rem;
+}
+
+body {
+    /* background-color: #f4f4aa; */
+    background-image: url(Fondo.jpg);
+    background-size: cover;
+}
+
+main {
+    min-height: 200px;
+}
+
+.header-logo {
+    max-height: 10%;
+}
+
+.side {
+    border: 3px;
+}
+
+header, footer {
+    background-color: #f4aab9;
+}
+
+main {
+    background-color: #aad7f4;
+}
