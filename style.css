@@ -58,3 +58,7 @@ img {
   font-size: 16px;
   padding-left: 20px;
 }
+
+ul {
+  list-style-image: url('mariposa_azul_4.png');
+}
