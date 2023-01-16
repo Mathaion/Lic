@@ -40,16 +40,21 @@ main>div {
     background-color: #aad7f4;
 }
 
-img {
-    height:30%;
-    width: 100%;
-    padding: 15px;
-    border-radius: 20px;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
-.Img {
-    height:30%;
-    width: 45%;
-    padding: 15px;
-    border-radius: 20px;
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 40%
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
 }
