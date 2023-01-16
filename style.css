@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body, header, main, footer {
+body, header, main>div, footer {
     border: 3px #2596be solid;
     min-height: 50px;
     margin: 1rem;
@@ -20,6 +20,12 @@ main {
 
 .header-logo {
     max-height: 10%;
+    max-width: 50%;
+}
+
+header {
+    max-height: 400px;
+
 }
 
 .side {
@@ -30,6 +36,20 @@ header, footer {
     background-color: #f4aab9;
 }
 
-main {
+main>div {
     background-color: #aad7f4;
+}
+
+img {
+    height:30%;
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.Img {
+    height:30%;
+    width: 45%;
+    padding: 15px;
+    border-radius: 20px;
 }
