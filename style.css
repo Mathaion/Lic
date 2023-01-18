@@ -43,7 +43,7 @@ main>div {
 .container {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
 img {
@@ -145,3 +145,9 @@ nav ul li a {
 li>ul {
     list-style:none;
 } 
+
+@media screen and (max-width: 800px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
