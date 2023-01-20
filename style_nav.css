@@ -73,7 +73,7 @@ div>ul {
 nav {
     padding: 50px 0;
     min-width: 500px;
-        float: center;
+    float: center;
 }
 
 
@@ -95,7 +95,7 @@ nav ul li a {
     position: relative;
     float: center;
     padding: 10px; 
-    color: #293c5b;
+    /* color: #293c5b; */
     font-size: 18px;
     font-family: Arial;
     text-decoration: none;
@@ -114,11 +114,11 @@ nav ul li a {
 
 .nav li a {
     background: linear-gradient(90deg, 
-     #f4acb4 0%, 
+     /* #f4acb4 0%, */
      rgba(231, 220, 226, 0.9) 33%, 
-     rgba(231, 220, 226, 0.9) 67%, 
-     #f4acb4 100%);
-     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     rgba(231, 220, 226, 0.9) 67%, );
+     /* #f4acb4 100%); */
+     box-shadow: 0 0 25px rgba(0, 0, 0, 0.25),
       inset 0 0 1px rgba(255, 255, 255, 0.6);
     color:rgb(0, 0, 0);
     text-decoration:none;
@@ -129,10 +129,10 @@ nav ul li a {
 .nav li a:hover {
     background-color:#f7efa6;
     background: linear-gradient(90deg, 
-    #ffcd00 0%, 
-    #f7efa6 20%, 
-    #f7efa6 75%, 
-    #ffcd00 100%);
+    rgba(242,180,7, 0.6) 0%, 
+    rgba(242,180,7, 0.6) 20%, 
+    rgba(242,180,7, 0.6) 75%, 
+    rgba(242,180,7, 0.6) 100%);
 }
 
 .nav li ul {
