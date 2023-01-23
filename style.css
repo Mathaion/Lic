@@ -198,4 +198,10 @@ li>ul {
     display: none;
     }
 
+    .img2 {
+        max-width: 50%;
+        height: auto;
 }
+
+}
+
