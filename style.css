@@ -3,7 +3,7 @@
 }
 
 body, main>div, footer {
-    border: 3px #2596be solid;
+    /* border: 3px #2596be solid; */
     min-height: 50px;
     margin: 1rem;
 }
@@ -178,7 +178,7 @@ li>ul {
     font-size: 50px;
 }
 
-p {
+.paragraph {
     text-align: justify;
     text-justify: inter-word;
 }
